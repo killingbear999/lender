@@ -29,7 +29,7 @@ public class Main {
     }
 
     public static double calculateProfitEarned(){
-        double profit = 0;
+        double profit = 1;
         for (int i=0; i< loansCount; i++){
             // if the loan was repaid, add the interest to profit
             if (isPaid[i]){
